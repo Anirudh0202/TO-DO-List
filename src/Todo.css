@@ -1,0 +1,60 @@
+body{
+    background-color: gray;
+}
+.todo-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.671);
+    box-shadow: 5px 5px 20px rgba(51, 51, 51, 0.8),
+    -5px -5px 20px rgba(51, 51, 51, 0.8);
+    border-radius: 10px;
+}
+h2{
+    color: olivedrab;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+} 
+
+input[type='text']{
+width:100%;
+box-sizing: border-box;
+margin: 10PX;
+padding: 8PX;
+border: 1px solid #ccc;
+border-radius: 4px;
+}
+
+button{
+    margin-right: 5px;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 8px;
+    background-color:  rgb(139, 194, 30);
+    cursor: pointer;
+    
+}
+button:hover{
+    background-color: rgb(53, 75, 11);
+    
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+li{
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+}
+li button{
+    margin-left: 5px;
+    background-color: rgb(212, 255, 125);
+    flex-shrink: 0;
+}
